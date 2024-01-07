@@ -1,5 +1,8 @@
 # 이미지 퀴즈 게임
-[![이미지 퀴즈 게임](https://javascript-quiz-eta.vercel.app/screenshot.png)](https://javascript-quiz-eta.vercel.app/)
+<a href="https://javascript-quiz-eta.vercel.app/">
+    <img width="80%" src="./assets/img/quiz.png" alt="quiz">
+</a>
+
 *스크린샷을 클릭하면 게임을 플레이할 수 있는 링크로 이동합니다.*
 ## 프로젝트 개요
 웹 기반의 **이미지 퀴즈 게임**으로, 사용자는 다양한 문제에 맞는 사진을 선택해야 합니다. 다양한 카테고리의 문제들로 구성되어 있으며, 각 문제에는 네 개의 이미지 보기가 제공됩니다.
