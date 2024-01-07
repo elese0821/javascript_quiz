@@ -1,4 +1,6 @@
 # 이미지 퀴즈 게임
+
+
 [![이미지 퀴즈 게임](https://javascript-quiz-eta.vercel.app/screenshot.png)](https://javascript-quiz-eta.vercel.app/)
 *스크린샷을 클릭하면 게임을 플레이할 수 있는 링크로 이동합니다.*
 ## 프로젝트 개요
