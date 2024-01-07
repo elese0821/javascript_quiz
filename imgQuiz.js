@@ -300,9 +300,6 @@ function startTimer() {
 }
 startTimer();                                                   // 타이머 실행
 
-
-
-
 function restartGame() {
     QuestionNum = 0; // 문제 번호 초기화
     score = 0; // 점수 초기화
@@ -361,9 +358,6 @@ function nextQusetion() {
         }
     }
 }
-
-
-
 
 // 체크박스 초기화 함수
 function uncheckCheckboxes() {
@@ -440,7 +434,7 @@ function checkAnswers() {
         setTimeout(() => {
             correctAnswerElement.style.display = "none";
             incorrectAnswerElement.style.display = "none";
-        }, 500); 
+        }, 500);
 
     } else {
         // 정답 미선택 시 숨기기
@@ -449,13 +443,10 @@ function checkAnswers() {
     }
 }
 
-
-
 // 현재 질문의 정답 개수를 반환하는 함수
 function getCorrectChoicesCount() {
     return quizInfo[QuestionNum].choices.filter(choice => choice.correct).length;
 }
-
 
 // 셔플 함수
 function shuffleArray(array) {
@@ -464,8 +455,6 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
-
-
 
 // 페이지가 로드된 후 실행
 document.addEventListener("DOMContentLoaded", () => {
